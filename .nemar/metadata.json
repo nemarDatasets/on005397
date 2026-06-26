@@ -1,33 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on005397",
-  "source": "openneuro",
-  "source_id": "ds005397",
+  "pipeline_stage": "enriched",
   "title": "Affordances of stairs",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Christopher Hilton": {},
+    "Christopher Hilton": {
+      "orcid": "0000-0001-9386-6935"
+    },
     "Lilian Befort": {},
     "Ronja Brinkmann": {},
     "Matthias Ballestrem": {},
     "Joerg Fingerhut": {},
     "Klaus Gramann": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005397.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005397",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005397",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.jenvp.2025.102528",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "We thank Oliver Frank for his assistance with implementing the experiment and pilot testing, Hannah Kruft for her assistance with data collection, and Samuel Pahlke for creating the stimuli used in this experiment."
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".jpg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings and behavioral responses collected during a visual perception task in which participants rated aesthetic properties and contextual appropriateness of scene images, including images of stairs. Participants evaluated stimuli across multiple dimensions including beauty, complexity, interestingness, and suitability for reading or social activities. The dataset includes raw EEG data, extracted behavioral responses, and the complete stimulus set, providing a resource for investigating neural correlates of scene perception, aesthetic judgment, and environmental affordances.",
+  "methods_description": "EEG data were collected while participants viewed images of scenes (including stairs and other environmental contexts) and provided behavioral ratings of aesthetic properties (beauty, complexity, interestingness) and appropriateness for specific activities (reading, social). Behavioral responses were extracted from EEG events and are provided separately for convenience. Affordances refer to the perceived action possibilities that environmental features (such as stairs) offer to observers.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "scene perception"
+    },
+    {
+      "term": "aesthetic judgment"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "environmental psychology"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "affordances"
+    },
+    {
+      "term": "behavioral ratings"
+    },
+    {
+      "term": "stairs"
+    }
+  ],
+  "source_hash": "6a9a2ef0623dc8f6fd0d932b12f3526775421013c53b5bc8f4e96d2222af32b1"
 }
