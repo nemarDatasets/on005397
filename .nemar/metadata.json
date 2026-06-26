@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005397",
+  "source": "openneuro",
+  "source_id": "ds005397",
+  "title": "Affordances of stairs",
+  "authors": {
+    "Christopher Hilton": {},
+    "Lilian Befort": {},
+    "Ronja Brinkmann": {},
+    "Matthias Ballestrem": {},
+    "Joerg Fingerhut": {},
+    "Klaus Gramann": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005397.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "acknowledgements": "We thank Oliver Frank for his assistance with implementing the experiment and pilot testing, Hannah Kruft for her assistance with data collection, and Samuel Pahlke for creating the stimuli used in this experiment."
+}
