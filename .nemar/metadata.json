@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Affordances of stairs",
+  "description": "This dataset comprises EEG recordings and behavioral responses from participants viewing scene images and rating their aesthetic properties (beauty, complexity, interestingness) and contextual appropriateness for reading or social activities. The study investigates neural correlates of environmental perception and aesthetic judgment, with extracted behavioral data and complete stimulus set provided for reproducibility and further analysis.",
+  "methods_description": "Participants viewed images of scenes and provided ratings of aesthetic properties (beauty, complexity, interestingness) and appropriateness for reading or social activities. EEG data were recorded during the task, with behavioral responses extracted from EEG events.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,27 @@
     "Joerg Fingerhut": {},
     "Klaus Gramann": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005397.v1.0.4",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "aesthetic perception"
+    },
+    {
+      "term": "environmental psychology"
+    },
+    {
+      "term": "scene perception"
+    },
+    {
+      "term": "behavioral responses"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005397",
       "identifier_type": "URL",
@@ -34,15 +51,20 @@
       "identifier": "10.1016/j.jenvp.2025.102528",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005397.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "13.0 GB (144 files)"
   ],
   "formats": [
     ".csv",
@@ -52,38 +74,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings and behavioral responses collected during a visual perception task in which participants rated aesthetic properties and contextual appropriateness of scene images, including images of stairs. Participants evaluated stimuli across multiple dimensions including beauty, complexity, interestingness, and suitability for reading or social activities. The dataset includes raw EEG data, extracted behavioral responses, and the complete stimulus set, providing a resource for investigating neural correlates of scene perception, aesthetic judgment, and environmental affordances.",
-  "methods_description": "EEG data were collected while participants viewed images of scenes (including stairs and other environmental contexts) and provided behavioral ratings of aesthetic properties (beauty, complexity, interestingness) and appropriateness for specific activities (reading, social). Behavioral responses were extracted from EEG events and are provided separately for convenience. Affordances refer to the perceived action possibilities that environmental features (such as stairs) offer to observers.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "scene perception"
-    },
-    {
-      "term": "aesthetic judgment"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "environmental psychology"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "affordances"
-    },
-    {
-      "term": "behavioral ratings"
-    },
-    {
-      "term": "stairs"
-    }
-  ],
-  "source_hash": "6a9a2ef0623dc8f6fd0d932b12f3526775421013c53b5bc8f4e96d2222af32b1"
+  "source_hash": "d4f660915505c2b70ef3106662b0779bfbb0afc95dd4708814197e8a84af350c"
 }
