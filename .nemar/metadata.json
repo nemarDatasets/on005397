@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Affordances of stairs",
-  "description": "This dataset comprises EEG recordings and behavioral responses from participants viewing scene images and rating their aesthetic properties (beauty, complexity, interestingness) and contextual appropriateness for reading or social activities. The study investigates neural correlates of environmental perception and aesthetic judgment, with extracted behavioral data and complete stimulus set provided for reproducibility and further analysis.",
-  "methods_description": "Participants viewed images of scenes and provided ratings of aesthetic properties (beauty, complexity, interestingness) and appropriateness for reading or social activities. EEG data were recorded during the task, with behavioral responses extracted from EEG events.",
+  "description": "This dataset comprises EEG recordings and behavioural responses collected while participants viewed images of scenes and rated aesthetic properties (beauty, complexity, interestingness) or judged their appropriateness for reading or social activities. The study investigates perceived affordances of environments, particularly staircases, using neural and behavioural measures. Full stimulus images and extracted behavioural data accompany the raw EEG recordings.",
+  "methods_description": "Participants viewed images of scenes and rated their aesthetic properties (beauty, complexity, interestingness) or their appropriateness for a reading or social activity, while EEG was recorded. Behavioural responses were also collected and extracted from the EEG event markers for convenience.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,19 +21,19 @@
       "term": "EEG"
     },
     {
-      "term": "aesthetic perception"
+      "term": "aesthetics"
     },
     {
-      "term": "environmental psychology"
+      "term": "affordances"
     },
     {
       "term": "scene perception"
     },
     {
-      "term": "behavioral responses"
+      "term": "environmental psychology"
     },
     {
-      "term": "neuroimaging"
+      "term": "stairs"
     }
   ],
   "related_identifiers": [
@@ -43,19 +43,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005397",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1016/j.jenvp.2025.102528",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.18112/openneuro.ds005397.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005397",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
